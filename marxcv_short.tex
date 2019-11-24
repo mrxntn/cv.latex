@@ -22,13 +22,15 @@
 }
 
 \geometry{ % length, width and margins of document
-  body={7.0in, 10.0in},
-  left=0.8in,
-  top=0.6in
+  body={8in, 11.69in}, % DinA4 8.27 x 11.69 inch
+  left=0.6in,
+  right=0.4in,
+  top=0.8in,
+  bottom=0.5in
 }
 
 \pagestyle{myheadings}
-\markright{\footnotesize Short CV / Marx/ Updated: \today} % page header
+%\markright{\footnotesize Short CV / Marx/ Updated: \today} % page header
 \thispagestyle{empty}
 
 \usepackage{sectsty}
@@ -53,11 +55,7 @@
 
 \begin{document}
 
-%\begin{center} % place name at center
-
 {\Huge \bf \name}
-
-%\end{center}
 
 \vspace{0.1in}
 
@@ -162,5 +160,10 @@
 \item[$\ast$] Prof. Dr. Corinna Reck, LMU Munich, Department of Psychology \href{mailto:corinna.reck@psy.lmu.de}{\tt (corinna.reck@psy.lmu.de)} 
 \end{itemize}
 
+\begin{center} 
+
+\flushright {\it \footnotesize Updated: \today}
+
+\end{center}
 
 \end{document}
