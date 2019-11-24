@@ -1,8 +1,6 @@
-% LaTeX Template for an Academic CV by Anton Marx (anton.marx@psy.lmu.de)
+% LaTeX Template for an short academic CV by Anton Marx (anton.marx@psy.lmu.de)
 
 % DISCLAIMER: This template is licensed under a CC-BY 4.0 license (Creative Commons https://creativecommons.org/). You may copy, distribute, and use the LaTex code, as long as you give attribution to the original authors in the code, but not in the resulting documents (e.g. PDF files).
-
-% Source: https://github.com/mrxntn/academic_cv
 
 \documentclass[letterpaper]{article}
 
@@ -18,7 +16,7 @@
   urlcolor = black,
   pdfauthor = {\name},
   pdfkeywords = {psychology, research, education},
-  pdftitle = {marx_cv},
+  pdftitle = {marx_shortcv},
   pdfsubject = {Curriculum Vitae},
   pdfpagemode = UseNone
 }
@@ -30,12 +28,12 @@
 }
 
 \pagestyle{myheadings}
-\markright{\footnotesize CV / Marx/ Updated: \today} % page header
+\markright{\footnotesize Short CV / Marx/ Updated: \today} % page header
 \thispagestyle{empty}
 
 \usepackage{sectsty}
-\sectionfont{\rmfamily\mdseries\bfseries\Large} % sections font
-\subsectionfont{\rmfamily\bfseries\large} % subsections font
+\sectionfont{\rmfamily\mdseries\bfseries\large} % sections font
+\subsectionfont{\rmfamily\bfseries\normalsize} % subsections font
 
 % \ttfamily for teletype,
 % \sffamily for sans serif,
@@ -55,19 +53,17 @@
 
 \begin{document}
 
-\begin{center} % place name at center
+%\begin{center} % place name at center
 
 {\Huge \bf \name}
 
-\end{center}
+%\end{center}
+
+\vspace{0.1in}
 
 \noindent\rule{\textwidth}{0.5pt} % add line under name
 
-\section*{CONTACT INFORMATION}
-
-\vspace{0in}
-
-
+\vspace{0.1in}
 
 \begin{minipage}{0.45\linewidth}
   University of Munich (LMU Munich) \\
@@ -80,45 +76,33 @@
     Email: & \href{mailto:anton.marx@psy.lmu.de}{\tt anton.marx@psy.lmu.de} \\
     Phone: & 0049 (0) 89  2180 - 9513 (Fax: - 72508)\\
     Web: & \href{https://www.psy.lmu.de/pls/people/marx/}{\tt www.psy.lmu.de/pls/people/marx} \\
-    Twitter: & \href{https://www.twitter.com/mrxntn/}{\tt @mrxntn} | Github: \href{https://www.github.com/mrxntn/}{\tt /mrxntn} | OSF:  \href{https://www.osf.io/z7rfu/}{\tt osf.io/z7rfu}\\
+    Profiles: & \href{https://www.osf.io/z7rfu/}{\tt osf.io} | \href{https://www.twitter.com/mrxntn/}{\tt twitter.com} | \href{https://www.github.com/mrxntn/}{\tt github.com}
       \end{tabular}
 \end{minipage}
 
+\vspace{0.1in}
 
-
-\section*{EDUCATION}
-
-\subsection*{Since 2016 (ongoing): Ph.D., Psychology, LMU Munich}
-\begin{itemize}
-  \item Dissertation: {\it Advances in Research on Emotional Contagion} (working title)
-    \item Supervisor: Prof. Dr. Anne C. Frenzel // Co-Supervisor: Prof. Dr. Corinna Reck
-    \item Member of the Munich Center of the Learning Sciences (MCLS) Doctoral Training Program
-  \end{itemize}
-
-\subsection*{2009-2015: State Exam (equivalent to M.Sc.), LMU Munich}
-\begin{itemize}
-  \item Subjects: School Psychology and Primary School Teaching/Educational Sciences
-  \item Thesis: {\it The Relationship Between Achievement Motives and Frontal Alpha Asymmetry: An Exploratory EEG-Study} (Supervisor: PD Dr. Jörg Meinhardt)
-  \item Grade/GPA: A/1.3 (with distinction) 
-\end{itemize}
+\noindent\rule{\textwidth}{0.5pt} % add line under name
 
 
 \section*{PROFESSIONAL EXPERIENCE}
-\subsection*{Since 2016 (ongoing): Ph.D. Student and Research Associate}
-\begin{itemize}
-  \item LMU Munich, Department of Psychology, Psychology in the Learning Sciences // Web: \href{https://www.psy.lmu.de/pls/}{\tt www.psy.lmu.de/pls}
-    \item Project leader in the DFG funded research project "Emotional Contagion in the Classroom"
-    \item Principal Investigators: Prof. Dr. Frenzel, Prof. Dr. Reck, and Prof. Dr. Pekrun
-    % \item Web: \href{https://www.psy.lmu.de/pls/projekt-feel/}{\tt www.psy.lmu.de/pls/projekt-feel} // DFG: \href{https://gepris.dfg.de/gepris/projekt/282833022?language=en}{\tt www.gepris.dfg.de/gepris/projekt/282833022}
-    
-  \end{itemize}
-\subsection*{2013-2016: Student Assistant}
-\begin{itemize}
-  \item LMU Munich, Department of Psychology, Developmental psychology // Web: \href{https://www.psy.lmu.de/epp/}{\tt www.psy.lmu.de/epp}
-    \item EEG- and Eye-Tracking-Lab (Principal Investigator: PD Dr. Jörg Meinhardt)
-  \item Lab-Management and Project Coordination
-\end{itemize}
+  \begin{tabular}{llll}
+    Since 2016 & PhD Student/Research Associate & Department of Psychology & University of Munich (LMU)\\
+    2013 - 2016 & Student/Research Assistant & Department of Psychology & University of Munich (LMU)\\
+      \end{tabular}
 
+\section*{EDUCATION}
+  \begin{tabular}{llll}
+    Since 2016 & PhD (Dr. phil.) & Psychology & University of Munich (LMU)\\
+    2009 - 2015 & State Exam (equivalent to M.Sc.) & Schoolpsychology & University of Munich (LMU)\\
+      \end{tabular}
+
+\section*{ADDITIONAL SKILLS}
+  \begin{tabular}{ll}
+    Languages: & German (native), English (fluent), Spanish (basics) \\
+    Code: & R/RStudio, LaTex, RMarkdown/Markdown, HTML/CSS (basics) \\
+    Software: & SPSS, iMotions FACET and AFFECTIVA, Noldus Observer XT and Facereader
+    \end{tabular}
 
 \section*{PUBLICATIONS}
 \subsection*{Journal Articles (Peer-Reviewed)}
@@ -128,6 +112,7 @@
 
 \subsection*{Conference Contributions}
 \begin{itemize}
+\item {\bf Marx, A. K. G.}, Frenzel, A. C., \& Fiedler, D. (2020, submitted). Validation of a newly developed self-report measure of Susceptibility to Emotional Contagion. Paper submitted to the European Association of Social Psychology (EASP) triennial conference, Krakow, Poland.
 \item {\bf Marx, A. K. G.}, Frenzel, A. C., Pekrun, R., Kosovac, K., Müller, M., \& Reck, C. (2020, accepted). Examining enjoyment in the classroom using facial expression analysis. Poster submitted to the American Educational Research Association (AERA) annual conference, San Francisco, USA.
 \item {\bf Marx, A. K. G.}, Frenzel, A. C., Reck, C., Kosovac, K., Müller, M., \& Pekrun, R. (2019, September). Teachers’ susceptibility to emotional contagion relates to their discrete emotions and emotional exhaustion. Paper presented at the Joint Conference of the DGPS-Sections Developmental Psychology and Educational Psychology (paEpsy), Leipzig, Germany.
 \item {\bf Marx, A. K. G.}, Frenzel, A. C., Pekrun, R., Kosovac, K., Müller, M., \& Reck, C. (2019, September). Examining teachers’ and students’ enjoyment in class using automated facial emotion recognition. Paper submitted to the Joint Conference of the DGPS-Sections Developmental Psychology and Educational Psychology (paEpsy), Leipzig, Germany.
@@ -157,7 +142,7 @@
 \item Emotional experiences of teachers and students in class, facial expression analysis and automated emotion recognition, research methodology and study design (quantitative research)
 \end{itemize}
 
-\subsection*{Study program “School psychology” (LMU Munich)}
+\subsection*{Study program “Schoolpsychology” (LMU Munich)}
 \begin{itemize}
 \item Counseling techniques, motivational interviewing, psychopathology and mental disorders in children and adolescents, crisis intervention techniques, cognitive behavioral therapy (basics)
 \end{itemize}
@@ -171,33 +156,10 @@
 \end{itemize}
 
 
-\section*{ADDITIONAL SKILLS}
-\subsection*{Languages}
-\begin{itemize}
-\item German (native), English (fluent), Spanish (basics)
-\end{itemize}
-\subsection*{Software/Programming}
-\begin{itemize}
-\item R/RStudio, SPSS, Microsoft Office/Google Docs, LaTex, Markdown, HTML/CSS (basics), iMotions FACET and AFFECTIVA, Noldus Observer XT and Facereader
-\end{itemize}
-
-
-\section*{TRAININGS \& CERTIFICATIONS}
-\begin{itemize}
-\item 07/2019: Advanced Power Analysis, Open-Science-Committee (OSC), LMU Munich, Germany
-\item 06/2019: Research Data Management, GESIS-Institute, Cologne, Germany
-\item 02/2019: Good Scientific Practices, Open-Science-Committee (OSC), LMU Munich, Germany
-\item 11/2018: Data Analysis and Data Management in R, MCLS, LMU Munich, Germany
-\item 07/2018: EU-GDPR: Data Privacy and Psychological Research, University of Frankfurt, Germany
-\item 01/2018: Academic Writing, Graduate Center, LMU Munich, Germany
-\item 02/2017: Facial Expression Analysis using the Facial-Action-Coding-System (FACS), University of Saarbrücken, Germany
-\end{itemize}
-
-
 \section*{REFERENCES}
 \begin{itemize}
-\item[$\ast$] Prof. Dr. Anne C. Frenzel, LMU Munich, Department of Psychology, \href{mailto:frenzel@psy.lmu.de}{\tt frenzel@psy.lmu.de} 
-\item[$\ast$] Prof. Dr. Corinna Reck, LMU Munich, Department of Psychology, \href{mailto:corinna.reck@psy.lmu.de}{\tt corinna.reck@psy.lmu.de} 
+\item[$\ast$] Prof. Dr. Anne C. Frenzel, LMU Munich, Department of Psychology \href{mailto:frenzel@psy.lmu.de}{\tt (frenzel@psy.lmu.de)} 
+\item[$\ast$] Prof. Dr. Corinna Reck, LMU Munich, Department of Psychology \href{mailto:corinna.reck@psy.lmu.de}{\tt (corinna.reck@psy.lmu.de)} 
 \end{itemize}
 
 
